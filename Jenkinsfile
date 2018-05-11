@@ -8,8 +8,7 @@ node ('master') {
 
   if (v) {
     echo "ALERT!Building version ${v}"
-  }
-  
+  }  
 
   def mvnHome = tool 'apache-maven-3.5.3'
 
